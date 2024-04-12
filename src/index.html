@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./output.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body
+    class="flex bg-VeryLightGrey py-12 px-8 font-poppins flex-col max-w-[1440px] justify-center items-center mx-auto"
+  >
+    <header class="flex max-w-[500px] flex-col justify-center items-center">
+      <h1
+        class="text-gray-500 font-thin tracking-wide text-[28px] md:text-[42px]"
+      >
+        Reliable, efficient delivery
+      </h1>
+      <h2
+        class="text-[26px] md:tracking-[0.1rem] md:text-[38px] text-VeryDarkBlue font-semibold tracking-wide"
+      >
+        Powered by Technology
+      </h2>
+      <p class="text-GrayishBlue text-base text-center py-4">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+    </header>
+    <main
+      class="flex flex-col justify-center md:grid grid-cols-3 grid-flow-col grid-rows-2 gap-6 md:gap-8 pt-14"
+    >
+      <!-- CARD ONE SUPERVISOR -->
+      <div
+        class="row-span-2 md:self-center row max-w-[345px] bg-white rounded-md shadow-lg p-6 flex flex-col gap-2 border-t-4 border-t-Cyan"
+      >
+        <h3 class="font-semibold text-VeryDarkBlue text-[22px]">Supervisor</h3>
+        <p class="text-sm text-GrayishBlue">
+          Monitors activity to identify project roadblocks
+        </p>
+        <picture class="flex pt-8 pb-4 justify-end items-end">
+          <img width="60" src="images/icon-supervisor.svg" alt="spy glass" />
+        </picture>
+      </div>
+      <!-- CARD TWO TEAM BUILDER -->
+      <div
+        class="max-w-[345px] md:col-start-2 bg-white rounded-md shadow-lg p-6 flex flex-col gap-2 border-t-4 border-t-Red"
+      >
+        <h3 class="font-semibold text-VeryDarkBlue text-[22px]">
+          Team Builder
+        </h3>
+        <p class="text-sm text-GrayishBlue">
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <picture class="flex pt-8 pb-4 justify-end items-end">
+          <img width="60" src="images/icon-team-builder.svg" alt="spy glass" />
+        </picture>
+      </div>
+      <!-- CARD THREE -->
+      <div
+        class="max-w-[345px] col-start-2 bg-white rounded-md shadow-lg p-6 flex flex-col gap-2 border-t-4 border-t-Orange"
+      >
+        <h3 class="font-semibold text-VeryDarkBlue text-[22px]">Karma</h3>
+        <p class="text-sm text-GrayishBlue">
+          Regularly evaluates our talent to ensure quality
+        </p>
+        <picture class="flex pt-8 pb-4 justify-end items-end">
+          <img width="60" src="images/icon-karma.svg" alt="spy glass" />
+        </picture>
+      </div>
+      <!-- CARD FOUR CALCULATOR -->
+      <div
+        class="max-w-[345px] row-span-2 self-center col-start-3 bg-white rounded-md shadow-lg p-6 flex flex-col gap-2 border-t-4 border-t-Blue"
+      >
+        <h3 class="font-semibold text-VeryDarkBlue text-[22px]">Calculator</h3>
+        <p class="text-sm text-GrayishBlue">
+          Uses data from past projects to provide better delivery estimates
+        </p>
+        <picture class="flex pt-8 pb-4 justify-end items-end">
+          <img width="60" src="images/icon-calculator.svg" alt="spy glass" />
+        </picture>
+      </div>
+    </main>
+
+    <footer class="hidden md:flex justify-center items-center text-md py-4">
+      <p>
+        Challenge by
+        <a
+          class="text-Cyan hover:underline"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a class="text-Cyan hover:underline" href="#">John Pugh</a>.
+      </p>
+    </footer>
+  </body>
+</html>
